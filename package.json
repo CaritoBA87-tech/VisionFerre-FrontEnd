@@ -4,7 +4,7 @@
   "scripts": {
     "ng": "ng",
     "start": "echo Starting && ng serve",
-    "build": "node --openssl-legacy-provider ./node_modules/@angular/cli/bin/ng build --prod --build-optimizer=false --source-map=false"
+    "build": "node --openssl-legacy-provider ./node_modules/@angular/cli/bin/ng build --prod --build-optimizer=false --source-map=false",
     "build:ssr": "ng run Examen.Front:server:dev",
     "test": "ng test",
     "lint": "ng lint",
