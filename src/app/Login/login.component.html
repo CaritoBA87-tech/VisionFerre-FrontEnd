@@ -1,0 +1,44 @@
+<section class="d-flex justify-content-center align-items-center" style="min-height: 100vh; background-color: #f0f2f5;">
+  <div class="row g-0 justify-content-center" style="font-family: 'Century Gothic', sans-serif; width: 60%;">
+    
+    <div class="col-12 col-md-6 d-flex flex-column align-items-center">
+      <div style="background-color: white;" class="shadow-sm border rounded card-body p-4 p-lg-5 text-black text-center w-100">
+
+        <form style="width: 100%;">
+<div class="d-flex align-items-center justify-content-center mb-4">
+  <img src="../../assets/logo5.png" width="70px" class="mr-3">
+  <h5 class="fw-normal mb-0" style="border-left: 1px solid #ccc; padding-left: 15px;">Inicia sesión</h5>
+</div>
+
+          <div class="form-outline mb-4">
+            <input #userInput style="font-size: 15px;"  (input)="error = false"  placeholder="Usuario" class="form-control form-control-lg" />
+          </div>
+
+          <div class="form-outline mb-4">
+            <input #passwordInput (input)="error = false" style="font-size: 15px;"  placeholder="Contraseña" type="password" class="form-control form-control-lg" />
+          </div>
+
+          <!--<span *ngIf="error" class="error-message text-center" style="font-size: 14px;">{{mensaje}}</span>-->
+
+          <div *ngIf="error" class="error-container bounceIn">
+            <i class="bi bi-exclamation-diamond mr-2"></i>
+            <span>{{mensaje}}</span>
+        </div>
+
+          <div style="margin-top: 15px;" class="pt-1 mb-4">
+            <button style="font-size: 15px;" (click)="onLogin(userInput.value, passwordInput.value)" class="btn btn-dark btn-lg btn-block" type="button">Iniciar sesión</button>
+          </div>
+
+          <p class="mb-5 pb-lg-2" style="color: #393f81; ">¿Aún no tienes cuenta? <a href="#!"
+                style="color:#CB6052; font-weight: bold;">Regístrate aquí</a></p>
+                <p></p>
+          <span style="margin-right: 20px;" href="#" class="small text-muted">Términos de uso</span>
+          <span class="small text-muted">Política de privacidad</span>
+          
+          </form>
+      </div>
+    </div>
+  </div>
+</section>
+
+

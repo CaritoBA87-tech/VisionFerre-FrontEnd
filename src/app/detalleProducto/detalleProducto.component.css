@@ -1,0 +1,100 @@
+.thumbnail-img {
+  width: 100%;       /* Obliga a la imagen a llenar su contenedor */
+  height: 80px;      /* Aumenta este valor (antes quizás era 50px o 60px) */
+  object-fit: contain; /* Evita que la herramienta se vea estirada o deformada */
+  cursor: pointer;
+  transition: transform 0.2s;
+}
+
+.thumbnail-img:hover {
+  transform: scale(1.1); /* Efecto visual al pasar el mouse */
+  border: 1px solid #ffc107; /* Resalta la miniatura con el amarillo de tu marca */
+}
+
+.main-product-img {
+    max-width: 450px; /* Ajusta este valor según lo pequeño que lo quieras */
+    width: 80%;      /* Permite que se encoja en celulares */
+    height: auto;     /* Mantiene la proporción */
+    margin: 0 auto;   /* Centra la imagen */
+    display: block;
+}
+
+
+.description-text {
+  font-size: 1.1rem;
+  color: #4a4a4a;
+  line-height: 1.6;
+}
+
+.btn-warning {
+  background-color: #f1c40f; /* Amarillo de tu imagen */
+  border: none;
+  border-radius: 50px; /* Estilo redondeado */
+}
+
+.btn-warning:hover {
+  background-color: #d4ac0d;
+}
+
+.quantity-selector .btn {
+  border-radius: 50px;
+  border-color: #dee2e6;
+}
+
+.quantity-selector .form-control {
+  border: none;
+  font-size: 1.2rem;
+}
+
+/* Contenedor principal tipo píldora */
+.custom-qty {
+  width: 140px;
+  height: 45px;
+  background-color: #f1f3f5 !important; /* Gris muy claro de la imagen */
+  border-radius: 50px !important;       /* Bordes muy redondeados */
+  border: 1px solid #e0e0e0 !important;
+  overflow: hidden;                     /* Corta los bordes rectos internos */
+  display: flex;
+  align-items: center;
+}
+
+/* Estilo para los botones (+ y -) */
+.btn-qty-action {
+  border: none !important;
+  background: transparent !important;
+  color: #333 !important;
+  font-size: 20px !important;
+  font-weight: 500 !important;
+  width: 40px;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background 0.2s;
+}
+
+.btn-qty-action:hover {
+  background-color: rgba(0,0,0,0.05) !important; /* Oscurece sutilmente al pasar el mouse */
+}
+
+/* Estilo para el número central */
+.qty-display {
+  background: transparent !important;
+  border: none !important;
+  box-shadow: none !important; /* Quita el resplandor azul de Bootstrap al hacer clic */
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700 !important;
+  font-size: 18px !important;
+  color: #000 !important;
+  padding: 0 !important;
+  height: 100%;
+}
+
+/* Eliminar cualquier efecto de enfoque de Bootstrap */
+.qty-display:focus, .btn-qty-action:focus {
+  outline: none !important;
+  box-shadow: none !important;
+}
+
+
+

@@ -1,0 +1,31 @@
+<h3>Tiendas</h3>
+
+<div class="commands text-right" style="margin-bottom:10px;">
+  <button type="button"
+          [routerLink]="['/tiendasEdit']"
+         style="background-color:teal; border:none;" class="btn btn-danger btn-sm">
+    Agregar tienda
+  </button>
+</div>
+
+<table class="table table-sm table-bordered table-striped">
+  <tr style="background-color: gainsboro;"><th></th><th>Sucursal</th><th>Dirección</th><th></th><th></th></tr>
+
+  <tr *ngFor="let item of tiendas; let i = index;">
+    <td style="vertical-align:middle">{{i + 1}}</td>
+    <td style="vertical-align:middle">{{item.sucursal}}</td>
+    <td style="vertical-align:middle">{{item.direccion}}</td>
+    <td class="text-xs-center" style="text-align:center;">
+      <button style="background-color:teal; border:none;" class="btn btn-danger btn-sm" [routerLink]="['/tiendasEdit', item.id]">
+        Editar
+      </button>
+    </td>
+    <td class="text-xs-center" style="text-align:center;">
+      <button style="background-color:crimson;" class="btn btn-danger btn-sm" (click)="deleteStore(item.id)">
+        Eliminar
+      </button>
+    </td>
+  </tr>
+</table>
+
+

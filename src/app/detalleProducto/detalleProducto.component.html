@@ -1,0 +1,55 @@
+<div class="container-fluid detail-container" style="padding-left: 80px; padding-right: 80px; padding-top: 100px; font-family: 'Century Gothic', AppleGothic, sans-serif; ">
+  <nav aria-label="breadcrumb" class="py-3">
+    <div class="row mb-2" style="margin-bottom: 0;">
+    <div class="col-12" [innerHTML]="producto.categoria" style="padding-left: 20px; font-size: 15px; color:#423636; font-weight: bold;">
+      </div>
+  </div>
+  </nav>
+
+  <div class="row g-5">
+    <div class="col-lg-6">
+      <div class="row">
+        <div class="col-2 d-none d-md-block">
+          <div *ngFor="let img of producto?.imagenes" class="img-thumbnail-wrapper mb-2">
+            <img [src]="img" crossorigin="anonymous" class="img-fluid thumbnail-img" (click)="imagenPrincipal = img">
+          </div>
+        </div>
+        <div class="col-12 col-md-10 position-relative d-flex justify-content-center">
+          <img crossorigin="anonymous" [src]="imagenPrincipal || '../../assets/img/producto/' + producto?.sku + '.jpg'" 
+               class="img-fluid main-product-img shadow-sm" [alt]="producto?.nombre">
+        </div>
+      </div>
+    </div>
+
+    <div class="col-lg-6">
+      <div class="product-info-side">
+        <small style="color: rgb(79, 78, 78); " class="text-uppercase fw-bold">{{producto.marca}}</small>
+        <h3 style="font-weight: bold; font-size:20px;" class="display-6 fw-bold my-3">{{producto.nombre}}</h3>
+        <p style="color: rgb(79, 78, 78); " class="mb-4">SKU: {{producto.sku}} </p>
+
+        <p class="description-text leading-relaxed" style="text-align: justify;">
+          {{producto.descripcion}}
+        </p>
+
+        <div class="price-section my-4">
+          <h2 style="font-size: 20px; font-weight: bold;" class="text-dark fw-bold">$ {{producto.precio | number:'1.2-2'}} <span class="fs-4 fw-normal">Unidad</span></h2>
+        </div>
+
+        <hr>
+
+        <div class="action-section d-flex align-items-center gap-3 mt-5">
+            <div class="input-group quantity-selector custom-qty shadow-sm">
+                <button class="btn btn-qty-action" type="button" (click)="cambiarCantidad(-1)">−</button>
+                <input type="text" class="form-control text-center qty-display" [value]="cantidad" readonly>
+                <button class="btn btn-qty-action" type="button" (click)="cambiarCantidad(1)">+</button>
+            </div>
+          <button style="min-width: 50%; margin-left: 15px;  font-size: 16px; font-weight: bold;" class="btn btn-warning btn-lg fw-bold py-2 shadow-sm rounded-pill" 
+                  (click)="addProductToCartFerre(producto, cantidad)">
+            <i style="font-size: 20px;" class="bi bi-cart-plus"></i>
+                  &nbsp; Agregar al carrito
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

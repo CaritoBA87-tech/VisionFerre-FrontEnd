@@ -1,0 +1,35 @@
+.login-box { margin: 20px; padding: 20px; border: 1px solid #ccc; }
+
+body{
+      background-color: #f0f2f5;
+}
+
+/*.error-message {
+  color: #d9534f; 
+  font-size: 0.9rem;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-family: 'Century Gothic', sans-serif;
+  font-weight: bold;
+}*/
+
+.error-container {
+  color: #CB6052; /* Rojo de alerta */
+  font-size: 14px;
+  font-weight: 600;
+  margin: 15px 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Century Gothic', sans-serif;
+}
+
+/* Animación opcional para que el mensaje aparezca suavemente */
+.bounceIn {
+  animation: fadeIn 0.5s ease-in-out;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(-5px); }
+  to { opacity: 1; transform: translateY(0); }
+}

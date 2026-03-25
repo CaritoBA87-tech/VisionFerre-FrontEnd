@@ -1,0 +1,13 @@
+<div class="cart-link d-flex align-items-center gap-2" data-toggle="modal"  data-target="#carritoModal" style="cursor:pointer;">
+<div  class="text-left" style="color:white;">
+  <small style=" font-size: 15px;" class="icono">
+    <span *ngIf="cart.itemCount > 0" >
+      {{ cart.itemCount }} artículo(s) &nbsp; {{ cart.cartPrice | currency }}
+    </span>
+    <span *ngIf="cart.itemCount == 0">
+      (vacío)
+    </span>
+  </small>
+</div>
+</div>
+

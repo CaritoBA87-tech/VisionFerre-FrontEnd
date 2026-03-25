@@ -1,0 +1,36 @@
+/* Transformar Modal en Panel Lateral Derecho */
+.modal.fixed-right .modal-dialog {
+    position: fixed;
+    margin: auto;
+    width: 500px;
+    height: 100%;
+    right: 0; /* Lo pega a la derecha */
+    transform: translate3d(100%, 0, 0);
+    transition: transform 0.3s ease-out;
+}
+
+.modal.fixed-right.show .modal-dialog {
+    transform: translate3d(0, 0, 0);
+}
+
+.modal.fixed-right .modal-content {
+    height: 100%;
+    border-radius: 0;
+    border: none;
+}
+
+/* Ajuste para el fondo oscuro */
+.modal-backdrop.show {
+    opacity: 0.5;
+}
+
+#carritoModal{
+    font-family:'Century Gothic', AppleGothic, sans-serif;
+}
+
+.currency-symbol {
+  font-size: 0.7em; /* Lo hace un 30% más pequeño que el número */
+  font-weight: 600; /* Un poco menos de grosor para que no compita */
+  margin-right: 2px;
+  vertical-align: middle; /* Lo centra verticalmente respecto al número */
+}

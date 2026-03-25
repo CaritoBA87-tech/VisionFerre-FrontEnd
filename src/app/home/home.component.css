@@ -1,0 +1,262 @@
+
+
+/* Contenedor circular perfecto */
+.category-circle {
+  width: 140px;
+  height: 140px;
+  margin: 0 auto;
+  border-radius: 50%;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #fff;
+  border: 1px solid #eee;
+  transition: transform 0.3s ease;
+}
+
+/* Imagen dentro del círculo sin deformarse */
+.category-circle img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* Importante para que no se vea estirada */
+}
+
+/* Estilo del texto debajo */
+.category-label {
+  font-size: 14px;
+  font-weight: 600;
+  color: #6c757d;
+}
+
+.custom-control {
+  top: 55%; /* Ajustado para bajar un poco debido al título "Buscar por categoría" */
+  transform: translateY(-50%);
+  width: 5%; /* Da un área de clic más cómoda */
+  height: auto;
+  opacity: 1;
+}
+
+.custom-control:hover {
+  opacity: 0.7;
+}
+
+/* Efecto Hover */
+.category-circle:hover {
+  transform: translateY(-5px);
+  cursor: pointer;
+}
+
+
+
+
+/*Bolitas*/
+/* Hacer los indicadores redondos */
+.custom-indicators li {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: #ccc; /* Color de las bolitas inactivas */
+  border: none;
+  margin: 0 5px;
+  opacity: 1;
+}
+
+/* Color amarillo para la bolita activa (como en tu referencia) */
+.custom-indicators li.active {
+  background-color: #ffc107; /* El amarillo de tu marca */
+}
+
+/* Posicionar las bolitas debajo de las categorías */
+.carousel-indicators {
+  bottom: -40px; /* Las baja para que no tapen los nombres */
+}
+
+.category-label{
+    font-size: 15px;
+}
+
+
+
+
+@media (min-width: 992px) {
+    /* Muestra 6 elementos a la vez */
+    .carousel-inner .carousel-item {
+        display: none;
+        margin-right: 0;
+        flex: 0 0 16.666667%; /* 100% / 6 = 16.66% */
+    }
+    
+    .carousel-inner .active,
+    .carousel-inner .active + .carousel-item,
+    .carousel-inner .active + .carousel-item + .carousel-item,
+    .carousel-inner .active + .carousel-item + .carousel-item + .carousel-item,
+    .carousel-inner .active + .carousel-item + .carousel-item + .carousel-item + .carousel-item,
+    .carousel-inner .active + .carousel-item + .carousel-item + .carousel-item + .carousel-item + .carousel-item {
+        display: block;
+    }
+
+    .carousel-inner {
+        display: flex;
+    }
+}
+
+/* Estilo para las bolitas amarillas (Referencia: image_ada0bc.jpg) */
+.custom-indicators li {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: #ccc;
+    opacity: 1;
+}
+
+.custom-indicators li.active {
+    background-color: #ffc107; /* Amarillo de tu referencia */
+}
+
+
+/* Reduce la duración de la transición a 0.3s */
+.carousel-item {
+  transition: transform 0.3s ease-in-out !important;
+}
+
+/* Opcional: Si quieres que el efecto sea lineal y no tenga ese "rebote" */
+.carousel-item {
+  transition: transform 0.3s linear !important;
+}
+
+h2.font-weight-bold {
+    font-weight: 700;
+    color: #2c3e50;    /* Un tono azulado/gris oscuro profesional */
+    font-size: 24px;
+    margin-bottom: 30px;
+}
+
+
+
+/*-- BANNER --*/
+/* CSS ADICIONAL */
+
+/* Estilos para el banner dividido */
+.ferrebot-banner {
+  border-radius: 20px;
+  min-height: 200px; /* Asegura un alto mínimo visible */
+ background: linear-gradient(115deg, #F4F4F4 0%, #F4F4F4 45%, #f4f4f4 100%);
+}
+
+/* El botón ahora es blanco, como en la referencia */
+.btn-ferrebot-white {
+  background-color: #FFF;
+  color: #000;
+  border-radius: 50px;
+  font-size: 1rem;
+  transition: all 0.3s ease;
+  border: 1px solid transparent;
+}
+
+.btn-ferrebot-white:hover {
+  background-color: #f1f1f1;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+  transform: translateY(-2px);
+  color: #000;
+}
+
+/* Clases útiles de utilidad (puedes ponerlas en tu global.css si no usas B5) */
+.object-fit-cover {
+  object-fit: cover;
+}
+
+/* Para que la columna de la imagen tenga el alto de la columna del texto */
+@media (min-width: 768px) {
+  .banner-image-container {
+    position: absolute;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    height: 100%;
+  }
+  .ferrebot-banner .row {
+    position: relative;
+    height: 100%;
+  }
+}
+
+
+/* Estilo general de la tarjeta */
+.info-card {
+  background-color: #ffffff;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  cursor: pointer;
+  border-color: #f0f0f0 !important; /* Borde muy suave */
+}
+
+.info-card:hover {
+  transform: translateY(-5px); /* Pequeño salto al pasar el mouse */
+  box-shadow: 0 10px 20px rgba(0,0,0,0.08) !important;
+}
+
+/* Tipografía consistente con tu sitio */
+.info-card h5 {
+  font-family: 'Century Gothic', sans-serif;
+  font-size: 1.1rem;
+  color: #000;
+}
+
+.info-card p {
+  font-family: 'Century Gothic', sans-serif;
+}
+
+/* Reemplaza la clase de degradado por este color sólido de marca */
+.text-primary-gradient {
+  /* Usamos el amarillo exacto de tu logo y header */
+  color: #CB6052 !important; 
+  /* Eliminamos el degradado anterior */
+  background: none !important;
+  -webkit-background-clip: initial !important;
+  -webkit-text-fill-color: initial !important;
+  display: inline-block;
+}
+
+
+.footer-custom {
+  /* Color gris azulado de tu referencia */
+  background-color: #8a95a5; 
+  color: #ffffff;
+  font-family: 'Century Gothic', sans-serif;
+}
+
+.footer-custom h6 {
+  font-size: 0.9rem;
+  letter-spacing: 1px;
+}
+
+.footer-links li {
+  margin-bottom: 10px;
+}
+
+.footer-links a {
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 0.95rem;
+  transition: opacity 0.3s ease;
+}
+
+.footer-links a:hover {
+  opacity: 0.7;
+  color: #FDC322; /* Amarillo de tu marca para el hover */
+}
+
+/* Iconos de redes sociales */
+.social-icons a {
+  color: #ffffff;
+  font-size: 1.5rem;
+  margin-right: 15px;
+  text-decoration: none;
+}
+
+/* Ajuste para las imágenes de tarjetas de pago */
+.payment-methods img {
+  height: 25px;
+  filter: brightness(0) invert(1); /* Las vuelve blancas para que combinen */
+  opacity: 0.8;
+}

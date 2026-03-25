@@ -1,0 +1,11 @@
+.icono {
+  font-size: 24px;
+  cursor: pointer;
+  color: white; /* Color inicial */
+  transition: all 0.3s ease; /* Hace que el cambio de color sea suave */
+}
+
+.icono:hover {
+  color: #fae7ac; /* Color amarillo de Bootstrap (puedes usar el que gustes) */
+  /*transform: scale(1.1);*/ /* Opcional: el icono crece un poquito */
+}

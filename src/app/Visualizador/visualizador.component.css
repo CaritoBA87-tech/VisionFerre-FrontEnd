@@ -1,0 +1,58 @@
+/* Transformar Modal en Panel Lateral Derecho */
+.modal.fixed-right .modal-dialog {
+    position: fixed;
+    margin: auto;
+    width: 500px;
+    height: 100%;
+    right: 0; /* Lo pega a la derecha */
+    transform: translate3d(100%, 0, 0);
+    transition: transform 0.3s ease-out;
+}
+
+.modal.fixed-right.show .modal-dialog {
+    transform: translate3d(0, 0, 0);
+}
+
+.modal.fixed-right .modal-content {
+    height: 100%;
+    border-radius: 0;
+    border: none;
+}
+
+/* Ajuste para el fondo oscuro */
+.modal-backdrop.show {
+    opacity: 0.5;
+}
+
+
+
+
+
+
+/* Bordes punteados para el botón de subida */
+.border-dashed {
+  border: 2px dashed #dee2e6 !important;
+  background: #ffffff;
+  transition: all 0.3s ease;
+}
+
+.border-dashed:hover {
+  border-color: #ffc107 !important;
+  background: #fffbef;
+}
+
+/* Efecto de elevación para la tarjeta de la imagen */
+.preview-card {
+  transition: transform 0.2s ease;
+}
+
+.preview-card img {
+  border-bottom: 1px solid #eee;
+}
+
+/* Ajuste del modal lateral (si no lo tienes ya) */
+.fixed-right .modal-dialog-aside {
+  width: 350px;
+  min-height: 100%;
+  margin: 0 0 0 auto;
+}

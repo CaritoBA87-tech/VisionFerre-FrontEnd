@@ -1,0 +1,243 @@
+a.navbar-brand {
+  white-space: normal;
+  text-align: center;
+  word-break: break-all;
+}
+
+html {
+  font-size: 14px;
+}
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+.box-shadow {
+  box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05);
+}
+
+.nav-item {
+  text-align: center;
+  padding: 0px 15px;
+}
+
+body {
+    margin: 0; /* Elimina el espacio blanco en las orillas */
+  }
+
+.franja {
+  display: flex;
+  align-items: center; /* Centra verticalmente los elementos */
+  justify-content: space-between; /* Distribuye los elementos a lo largo de todo el ancho */
+  padding: 0 20px; /* Margen interno para que no peguen a los bordes */
+  width: 100%;
+  height: 80px; /* Ajusta según tu diseño */
+  background-color: #0d1117; /* Tu color de fondo */
+}
+
+  .btn-custom {
+    background-color: #F2BC27; /* El amarillo exacto de Ferco */
+    color: #000000;            /* Texto negro para alto contraste */
+    border: none;
+    border-radius: 50px;       /* Esto crea el efecto de cápsula (pill) */
+    padding: 5px 10px;        /* Espaciado interno generoso */
+    font-family: 'Century Gothic', sans-serif; /* La fuente que ya configuramos */
+    transition: background-color 0.3s;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.btn-custom:hover {
+    background-color: #d9a820; /* Un tono un poco más oscuro al pasar el mouse */
+    color: #000000;
+}
+
+.linea-vertical {
+    border-left: 1px solid white; /* Grosor y color de la línea */
+    height: 40px;                /* Ajusta la altura según tu menú */
+    margin: 0 15px;              /* Espacio a la izquierda y derecha */
+  }
+
+  .linea-vertical-small {
+    border-left: 1px solid white; /* Grosor y color de la línea */
+    height: 20px;                /* Ajusta la altura según tu menú */
+    margin: 0 8px;              /* Espacio a la izquierda y derecha */
+  }
+
+  /* Contenedor con el fondo oscuro que identificamos antes (#0B1117) */
+.buscador-container {
+    background-color: #0B1117;
+    padding: 12px;
+}
+
+.buscador-linea {
+    border-bottom: 1px solid #ffffff; /* La línea blanca inferior */
+    background: transparent;
+}
+
+.custom-input {
+    background: transparent !important;
+    border: none !important;
+    font-size: 13px;
+    color: white !important;
+    box-shadow: none !important; /* Elimina el brillo azul al hacer clic */
+    padding-left: 0;
+}
+
+.custom-input::placeholder {
+    color: #a0a0a0; /* Color grisáceo para el texto de sugerencia */
+    font-family: 'Century Gothic', sans-serif;
+}
+
+.custom-icon {
+    background: transparent !important;
+    border: none !important;
+    color: white;
+    font-size: 1.2rem;
+}
+
+/* Botón Amarillo Estilo Cápsula */
+.btn-custom-ferco {
+    background-color: #F2BC27;
+    color: #000;
+    border-radius: 50px;
+    padding: 8px 20px;
+    border: none;
+}
+
+
+
+/* Posicionamiento del submenú */
+.dropdown-submenu {
+  position: relative;
+  height: 50px;
+}
+
+.dropdown-submenu .dropdown-menu {
+  top: 0;
+  left: 100%; /* Lo mueve a la derecha del menú principal */
+  margin-top: -1px;
+}
+
+/* Mostrar el submenú al pasar el mouse (hover) */
+.dropdown-submenu:hover > .dropdown-menu {
+  display: block;
+}
+
+/* Opcional: Cambiar la flecha de dirección si es necesario */
+.dropdown-submenu > .dropdown-toggle:after {
+  display: inline-block;
+  rotate: -90deg; /* Apunta la flecha a la derecha */
+  vertical-align: middle;
+  margin-left: 0.5rem;
+}
+
+.dropdown-item{
+  height: 30px;
+}
+
+.icono{
+  font-size: 24px;
+  cursor: pointer;
+  color: white; /* Color inicial */
+  transition: all 0.3s ease; /* Hace que el cambio de color sea suave */
+}
+
+.icono:hover {
+  color: #fae7ac; /* Color amarillo de Bootstrap (puedes usar el que gustes) */
+  transform: scale(1.1); /* Opcional: el icono crece un poquito */
+}
+
+/* Estilo para el nombre (manteniendo tu hover previo) */
+.iconoUser {
+  cursor: pointer;
+  color: white;
+  transition: all 0.3s ease;
+}
+
+/* Cuando el mouse está sobre el CONTENEDOR del dropdown... */
+.user-dropdown-container:hover .dropdown-menu {
+  display: block; /* Muestra el menú */
+  margin-top: 0;  /* Alineación visual */
+  opacity: 1;
+  visibility: visible;
+}
+
+/* Opcional: Cambia el color del nombre cuando el menú esté abierto */
+.user-dropdown-container:hover .iconoUser {
+  color: #fde290 !important;
+}
+
+/* Evita que el menú desaparezca si hay un pequeño espacio entre el nombre y el menú */
+.dropdown-menu {
+  transition: all 0.3s ease;
+}
+
+
+/* Color base */
+.icono-perfil, 
+.iconoUser {
+  color: white;
+  transition: color 0.3s ease;
+}
+
+/* MANTENER AMARILLO: Mientras el mouse esté en el contenedor general */
+.user-dropdown-container:hover .icono-perfil,
+.user-dropdown-container:hover .iconoUser {
+  color: #fae7ac !important;
+}
+
+/* El menú desplegable */
+.user-dropdown-container:hover .dropdown-menu {
+  display: block;
+  margin-top: 0;
+}
+
+
+
+/* Estilo base para el contenedor y sus hijos */
+.cart-container {
+  transition: all 0.3s ease;
+  color: white; /* Color inicial para el texto y el icono */
+}
+
+.icono-carrito {
+  font-size: 26px;
+  margin-right: 8px;
+  transition: color 0.3s ease;
+}
+
+/* EFECTO HOVER: Cambia ambos al mismo tiempo */
+.cart-container:hover .icono-carrito,
+.cart-container:hover ::ng-deep carrito-resumen {
+  color: #fde290 !important; /* Amarillo de Visión Ferre */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

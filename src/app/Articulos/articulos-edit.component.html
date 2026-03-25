@@ -1,0 +1,95 @@
+<style>
+  .anotherInput:not(:placeholder-shown) {
+    color:black;
+    font-weight: bold;
+  }
+
+</style>
+
+<h3 *ngIf="!id">Agregar artículo</h3>
+<h3 *ngIf="id">Editar artículo</h3>
+
+
+
+<div style="width: 60%; float: left" >
+  <div class="form" [formGroup]="form" (ngSubmit)="onSubmit()">
+    <div class="form-group">
+      <label for="name">Código:</label>
+      <br />
+      <input type="text" id="codigo"
+             formControlName="codigo" required
+             placeholder=""
+             class="form-control" />
+    </div>
+
+    <div class="form-group">
+      <label for="name">Descripción:</label>
+      <br />
+      <input type="text" id="descripcion"
+             formControlName="descripcion" required
+             placeholder=""
+             class="form-control" />
+    </div>
+
+    <div class="form-group">
+      <label for="name">Precio:</label>
+      <br />
+      <input type="number" id="precio"
+             formControlName="precio" required
+             placeholder=""
+             class="form-control" />
+
+      <div *ngIf="form.get('precio').errors?.pattern">
+        Price format is invalid.
+      </div>
+
+    </div>
+
+    <div class="form-group commands">
+      <button *ngIf="id" type="submit"
+              (click)="onSubmit()"
+              [disabled]="form.invalid"
+              class="btn btn-success">
+        Guardar
+      </button>
+
+      <button *ngIf="!id" type="submit"
+              (click)="onSubmit()"
+              [disabled]="form.invalid"
+              class="btn btn-success">
+        Crear
+      </button>
+
+      <button type="submit"
+              [routerLink]="['/articulos']"
+              class="btn btn-default" style="background-color:darkgray; color:white; margin-left: 10px;">
+        Cancelar
+      </button>
+    </div>
+
+  </div>
+</div>
+
+<div style="width:37%; float:right;">
+  <label style="font-size:20px;">Tiendas con inventario en existencia</label>
+
+  
+  <div>
+    <table>
+      <tr *ngFor="let option of tiendas; let i = index">
+        <td>
+          <input type="checkbox"
+                 [id]="'checkbox-' + option.id"
+                 [name]="'checkbox-' + option.id"
+                 [(ngModel)]="option.checked"
+                 (change)="onCheckboxChange(option)" />
+          <label [for]="'checkbox-' + option.id">{{ option.sucursal }}:</label>
+        </td>
+        <td style="padding-left:10px;">
+          <input type="number" style="width:100px;" [(ngModel)]="option.stock"
+                 placeholder="Stock..."
+                 class="form-control anotherInput" (change)="onInputChange(option)" />
+        </td>
+      </tr>
+    </table>
+  </div>

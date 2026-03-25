@@ -1,0 +1,130 @@
+  <div style="font-family: 'Century Gothic', AppleGothic, sans-serif;" class="modal fade fixed-right" id="visualizadorModal" tabindex="-1" role="dialog" aria-labelledby="carritoModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-aside shadow-lg" role="document">
+    <div class="modal-content border-0">
+
+      <div class="modal-header bg-warning d-flex align-items-center py-3">
+        <div class="d-flex align-items-center">
+          <img src="../../assets/bot2.png" style="width: 45px; height: 45px; border-radius: 50%; background: white; padding: 2px;" class="mr-2 shadow-sm">
+          <h5 class="modal-title font-weight-bold text-dark" id="carritoModalLabel">
+            FerreBot <small class="d-block text-muted font-weight-normal" style="font-size:13px;">Asistente Inteligente</small>
+          </h5>
+        </div>
+
+        <!--<button type="button" (click)="limpiarPanel()" class="close text-dark" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>-->
+
+        <button type="button" class="close text-dark" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+
+      <div class="modal-body p-4" style="overflow-y: auto; background-color: #f8f9fa;">
+        
+        <div class="upload-container text-center mb-4">
+          <input type="file" #fileInput (change)="onFileSelected($event)" accept="image/*" style="display: none">
+          
+          <button type="button" class="btn btn-outline-primary btn-block border-dashed py-3" (click)="fileInput.click()">
+            <i class="bi bi-camera mr-2"></i> Subir o Tomar Foto
+          </button>
+        </div>
+
+        <div *ngIf="previewUrl" class="preview-card shadow-sm rounded bg-white p-3 text-center border">
+          <img [src]="previewUrl" alt="Vista previa" class="img-fluid rounded mb-3" style="max-height: 180px; object-fit: contain;">
+          
+          <div style="width: 50%;" class="mx-auto my-3">
+            <button style="font-size:15px; " class="btn btn-dark w-100" 
+                    [disabled]="!selectedFile" 
+                    (click)="analizarImagen()">
+                 Buscar productos
+            </button>
+          </div>
+        </div>
+
+        <div *ngIf="!previewUrl" class="text-center py-5 text-muted">
+          <p style="color:black">Sube una foto de la pieza que buscas para identificarla</p>
+        </div>
+      </div>
+
+<ng-container *ngIf="coincidencias > 0">
+  <div class="ferrebot-feedback p-3 mb-3 border-left-yellow">
+    <div class="d-flex align-items-center mb-2">
+      <div class="bot-avatar me-2">
+         <i class="fas fa-robot text-warning"></i> 
+      </div>
+      <h6 class="mb-0 fw-bold text-dark" style="color:grey; font-weight: bold;">FerreBot dice:</h6>
+    </div>
+
+    <div class="message-content text-dark small" style="font-size: 16px;">
+      <p class="mb-1">
+        Listo! He analizado tu foto y la he identificado como: 
+        <span style="font-size: 14px; margin-top: 10px;" class="badge bg-warning text-dark text-uppercase p-2">
+          {{ respuesta.replaceAll('-', ' ') }}
+        </span>
+      </p>
+      <p class="mb-0" style="margin-top: 10px;">
+        He encontrado <strong style="color: #CB6052; font-size: 16px; font-weight: bold;">{{ coincidencias }} productos</strong>  similares en nuestro catálogo
+      </p>
+    </div>
+
+    <div *ngIf="this.preguntaFerreBot != null">
+      <br>
+      <strong>FerreBot dice:</strong> <br>
+      <p class="typing-text">
+        {{ preguntaFerreBot }}
+      </p>
+
+        <button *ngFor="let opt of opcionesDisponibles" (click)="seleccionarOpcion(opt)" class="btn btn-warning m-1">
+          {{ opt }}
+        </button>
+
+    </div>
+
+  </div>
+
+<div class="modal-footer border-top-0 pt-0 justify-content-center w-100">
+  <!--<button  (click)="limpiarPanel()" style="font-weight: bold;" class="btn btn-outline-secondary py-2 w-50" data-dismiss="modal">
+      Ver coincidencias 
+  </button>-->
+
+    <button  style="font-weight: bold;" class="btn btn-outline-secondary py-2 w-50" data-dismiss="modal">
+      Ver coincidencias 
+  </button>
+
+  <button  style="font-weight: bold;" (click)="limpiarPanel()" class="btn btn-outline-secondary py-2 w-50" data-dismiss="modal">
+      Limpiar panel
+  </button>
+
+</div>
+</ng-container>
+
+<div id="sinCoincidencia" style="display: none;">
+  <div class="ferrebot-feedback p-3 mb-3 border-left-yellow">
+    <div class="d-flex align-items-center mb-2">
+      <div class="bot-avatar me-2">
+         <i class="fas fa-robot text-warning"></i> 
+      </div>
+      <h6 class="mb-0 fw-bold text-dark" style="color:grey; font-weight: bold;">FerreBot dice:</h6>
+    </div>
+
+    <div class="message-content text-dark small" style="font-size: 16px;">
+      <p class="mb-1">
+        ¡Vaya! No encontré ese artículo en el inventario
+      </p>
+    </div>
+  </div>
+
+<div class="modal-footer border-top-0 pt-0 justify-content-center w-100">
+  <!--<button (click)="limpiarPanel()" style="font-weight: bold;" class="btn btn-outline-secondary py-2 w-50" data-dismiss="modal">
+      Continuar comprando
+  </button>-->
+
+    <button style="font-weight: bold;" class="btn btn-outline-secondary py-2 w-50" data-dismiss="modal">
+      Continuar comprando
+  </button>
+</div>
+</div>
+
+    </div>
+  </div>
+</div>

@@ -1,0 +1,85 @@
+/* Contenedor principal con el gris claro de fondo de tu web */
+.confirmacion-container {
+    background-color: #f8f9fa;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 80vh;
+    padding: 20px;
+    margin-top: 70px;
+}
+
+.confirmacion-card {
+    background: white;
+    padding: 40px;
+    border-radius: 4px; /* Menos redondeado para verse más industrial */
+    box-shadow: 0 4px 15px rgba(0,0,0,0.05);
+    text-align: center;
+    max-width: 500px;
+    width: 100%;
+    border-top: 1px solid grey; /* El amarillo de Visión Ferre */
+}
+
+.success-icon {
+    font-size: 45px;
+    color: #FFC107;
+    margin-bottom: 15px;
+}
+
+.ferre-title {
+    font-weight: 800;
+    color: #292929;
+    letter-spacing: -1px;
+    margin-bottom: 5px;
+    font-size: 25px;
+}
+
+.divider {
+    height: 3px;
+    width: 50px;
+    background: #1A1A1A;
+    margin: 15px auto;
+}
+
+.message {
+    color: #555;
+    font-size: 1.1rem;
+}
+
+.resumen-caja {
+    background: #F4F4F4;
+    padding: 20px;
+    border-radius: 4px;
+    margin: 25px 0;
+    text-align: left;
+    border-left: 4px solid #1A1A1A;
+}
+
+.resumen-caja p {
+    margin: 5px 0;
+    color: #333;
+}
+
+.envio-info {
+    color: #28a745 !important;
+    font-weight: bold;
+    margin-top: 10px !important;
+}
+
+/* Botón estilo Visión Ferre */
+.btn-ferre-primary {
+    background-color: #FFC107;
+    color: #1A1A1A;
+    border: none;
+    padding: 15px 30px;
+    font-weight: bold;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: transform 0.2s, background 0.2s;
+    width: 100%;
+}
+
+.btn-ferre-primary:hover {
+    background-color: #e5ad06;
+    transform: translateY(-2px);
+}

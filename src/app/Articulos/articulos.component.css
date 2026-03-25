@@ -1,0 +1,164 @@
+body{
+      background-color: #f0f2f5;
+}
+
+.link-button {
+  display: inline;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  text-decoration: underline;
+  cursor: pointer;
+  background: transparent;
+  color: currentColor;
+  /*-webkit-appearance: none;*/
+  color: #0000EE;
+}
+
+  .link-button:hover {
+    color:darkblue;
+  }
+
+  thead{
+      background-color:gainsboro;
+  }
+
+  .price-text {
+  color: #000000;
+  /*font-family: 'Montserrat', sans-serif;*/
+  font-weight: 600;
+  font-size: 1.2rem;
+  margin-bottom: 0;
+}
+
+.currency-symbol {
+  font-size: 0.7em; /* Lo hace un 30% más pequeño que el número */
+  font-weight: 600; /* Un poco menos de grosor para que no compita */
+  margin-right: 2px;
+  vertical-align: middle; /* Lo centra verticalmente respecto al número */
+}
+
+.btn-add-cart {
+    background-color: #000; /* Tu amarillo de marca */
+    color: white;
+    border-radius: 50%; /* Lo hace circular */
+    width: 45px;
+    height: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    transition: all 0.3s ease;
+}
+
+.btn-add-cart:hover {
+    background-color: #000; /* Cambia a negro al pasar el mouse */
+    color: #f0dba0; /* El icono se vuelve amarillo */
+    transform: scale(1.1); /* Efecto de crecimiento sutil */
+}
+
+/* Ajuste para el contenedor de la categoría */
+.product-card:hover .btn-add-cart {
+    box-shadow: 0 4px 15px rgba(253, 195, 34, 0.4);
+}
+
+
+
+
+
+/* Sidebar e-commerce industrial */
+.sidebar-ferre {
+  background: #ffffff;
+  border: 1px solid #e0e0e0;
+  border-radius: 4px;
+}
+
+.filter-header {
+  padding: 15px;
+  border-bottom: 1px solid #eee;
+  font-size: 1.1rem;
+}
+
+.filter-collapse-btn {
+  width: 100%;
+  padding: 12px 15px;
+  background: none;
+  border: none;
+  text-align: left;
+  font-weight: bold;
+  font-size: 0.85rem;
+  display: flex;
+  justify-content: space-between;
+  letter-spacing: 0.5px;
+}
+
+/* El contenedor con scroll como en tu imagen */
+.filter-scroll-container {
+  max-height: 220px;
+  overflow-y: auto;
+  padding: 0 15px 15px 15px;
+}
+
+/* Scrollbar fina estética */
+.filter-scroll-container::-webkit-scrollbar {
+  width: 5px;
+}
+.filter-scroll-container::-webkit-scrollbar-thumb {
+  background: #cccccc;
+  border-radius: 10px;
+}
+
+/* Color amarillo de Visión Ferre para el checkbox */
+.custom-control-input:checked ~ .custom-control-label::before {
+  background-color: #424241;
+  border-color: #424241;
+}
+
+.btn-limpiar {
+  font-size: 0.8rem;
+  color: #5b5b5b; /* Gris suave inicial */
+  font-weight: 500;
+  transition: all 0.3s ease; /* Hace que el hover sea fluido */
+  background: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+.btn-limpiar:hover {
+  color: #333333; /* Gris oscuro al pasar el mouse */
+  /* O si prefieres el amarillo de tu marca: color: #FFC107; */
+  transform: translateY(-1px); /* Un pequeño salto hacia arriba */
+  text-decoration: none;
+}
+
+.btn-limpiar:active {
+  transform: translateY(0); /* Vuelve a su posición al hacer click */
+}
+
+
+
+
+
+/* Estilo base para la tarjeta */
+.product-card {
+  transition: all 0.3s ease-in-out; /* Suaviza el efecto */
+  border: 1px solid transparent !important; /* Evita saltos visuales */
+}
+
+/* Efecto Hover */
+.product-card:hover {
+  transform: translateY(-10px); /* Eleva la tarjeta */
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.12) !important; /* Sombra más profunda */
+  border: 1px solid #9a9a9a !important; /* Opcional: un borde sutil del color de tu marca */
+}
+
+/* Efecto hover específico para la imagen */
+.product-card:hover img {
+  transform: scale(1.05); /* Agranda la imagen ligeramente */
+  transition: transform 0.3s ease;
+}
+
+/* Cambia el color del título al pasar el mouse */
+.product-card:hover .product-title {
+  color: #515151;
+}
