@@ -18,7 +18,7 @@ VisionFerre es una ferretería en línea que resuelve el problema de identificar
 | **Angular** | Framework para la interfaz de usuario (Alojado en Vercel) | 
 | **SQL Server** | Base de datos (Alojada en Somee) |
 | **AWS Rekognition (Custom Labels)** | Modelo entrenado con 719 imágenes de piezas de ferretería y 47 etiquetas, con un 93.5% de certeza |
-| **AWS Bedrock** | Asistente inteligente que proporciona las especificaciones de los productos disponibles (Modelo Llama 3.2 1B Instruct) | 
+| **AWS Bedrock** | Asistente inteligente que proporciona las especificaciones de los productos disponibles (Modelo *Llama 3.2 1B Instruct*) | 
 | **AWS S3** | Almacenamiento para las imágenes de los productos |
 | **AWS IAM** | Permisos requeridos para acceder a los servicios de AWS desde .NET |
 | **Json Web Token** | Autenticación y autorización del usuario |
