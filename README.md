@@ -1,4 +1,4 @@
-## 🛠️ VisionFerre: E-Commerce Inteligente con IA
+## 🛠️ VISIÓN FERRE: E-Commerce Inteligente con IA
 
 <p align="left">
   <img src="https://img.shields.io/badge/.NET%208-512BD4?style=for-the-badge&logo=dotnet&logoColor=white" alt=".NET 8" />
@@ -8,7 +8,7 @@
   <img src="https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazon-aws&logoColor=white" alt="AWS" />
 </p>
 
-VisionFerre es una ferretería en línea que resuelve el problema de identificar piezas técnicas (tornillería, abrazaderas, anclajes) mediante una imagen, utilizando Inteligencia Artificial.
+VISIÓN FERRE es una ferretería en línea que resuelve el problema de identificar piezas técnicas (tornillería, abrazaderas, anclajes) mediante una imagen, utilizando Inteligencia Artificial.
 
 [![Demo](https://img.shields.io/badge/VisiónFerre_en_vivo-FF9900?style=for-the-badge&logo=google-chrome&logoColor=white)](https://vision-ferre-front-end.vercel.app)
 
