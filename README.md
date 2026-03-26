@@ -13,6 +13,10 @@ VisionFerre es una ferretería en línea que resuelve el problema de identificar
 
 [![Demo](https://img.shields.io/badge/VisiónFerre_en_vivo-FF9900?style=for-the-badge&logo=google-chrome&logoColor=white)](https://vision-ferre-front-end.vercel.app)
 
+![Status](https://img.shields.io/badge/Estado_del_Modelo-Inactivo_(Ahorro_de_Costos)-red?style=flat-square)
+
+> **Nota para Reclutadores:** Por motivos de optimización de costos en AWS, el modelo de **Rekognition** y el asistente **Bedrock** se encuentran pausados. Si desea una demostración en vivo de las capacidades de IA, no dude en contactarme para activarlos.
+
 <br>
 
 ### 🚀 Características Principales
@@ -29,8 +33,8 @@ VisionFerre es una ferretería en línea que resuelve el problema de identificar
 | **C# / .NET 8 / ADO.NET** | Desarrollo del Backend (Alojado en Railway) |
 | **Angular** | Framework para la interfaz de usuario (Alojado en Vercel) | 
 | **SQL Server** | Base de datos (Alojada en Somee) |
-| **AWS Rekognition (Custom Labels)** | Modelo entrenado con 719 imágenes de piezas de ferretería y 47 etiquetas, con un 93.5% de certeza |
-| **AWS Bedrock** | Asistente inteligente que proporciona las especificaciones de los productos disponibles (Modelo *Llama 3.2 1B Instruct*) | 
+| **AWS Rekognition (Custom Labels)** | Modelo entrenado con 719 imágenes de piezas de ferretería y 47 etiquetas, con un 93.5% de certeza (Actualmente offline para control de costos) |
+| **AWS Bedrock** | Asistente inteligente que proporciona las especificaciones de los productos disponibles -Modelo *Llama 3.2 1B Instruct*- (Disponible bajo solicitud para demostraciones) | 
 | **AWS S3** | Almacenamiento para las imágenes de los productos |
 | **AWS IAM** | Permisos requeridos para acceder a los servicios de AWS desde .NET |
 | **Json Web Token** | Autenticación y autorización del usuario |
