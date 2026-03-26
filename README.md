@@ -13,9 +13,7 @@ VisionFerre es una ferretería en línea que resuelve el problema de identificar
 
 [![Demo](https://img.shields.io/badge/VisiónFerre_en_vivo-FF9900?style=for-the-badge&logo=google-chrome&logoColor=white)](https://vision-ferre-front-end.vercel.app)
 
-![Status](https://img.shields.io/badge/Estado_del_Modelo-Inactivo_(Ahorro_de_Costos)-red?style=flat-square)
-
-> **Nota para Reclutadores:** Por motivos de optimización de costos en AWS, el modelo de **Rekognition** y el asistente **Bedrock** se encuentran pausados. Si desea una demostración en vivo de las capacidades de IA, no dude en contactarme para activarlos.
+> **Nota:** Por motivos de optimización de costos en AWS, el modelo de **AWS Rekognition** y el asistente **AWS Bedrock** se encuentran pausados. Si desea una demostración en vivo de las capacidades de IA, no dude en contactarme para activarlos.
 
 <br>
 
