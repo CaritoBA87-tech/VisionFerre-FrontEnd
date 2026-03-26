@@ -12,6 +12,8 @@ VisionFerre es una ferretería en línea que resuelve el problema de identificar
 
 **Asistente Inteligente (IA)**: un chatbot brinda detalles de las especificaciones de los productos disponibles en tiempo real con **AWS Bedrock**.
 
+<br>
+
 ### ☁️ Stack Tecnológico
 
 | Tecnología | Uso |
@@ -27,7 +29,7 @@ VisionFerre es una ferretería en línea que resuelve el problema de identificar
 | **Bootstrap** | Interfaz visual |
 | **Arquitectura Multicapa** | 4 capas: API, Lógica, Datos y Entidades |
 
-
+<br>
 
 ### 📩 Contacto
 
