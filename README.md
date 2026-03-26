@@ -1,16 +1,16 @@
 
-# 🛠️ VisionFerre: E-Commerce Inteligente con IA
+## 🛠️ VisionFerre: E-Commerce Inteligente con IA
 
 ![.NET 8](https://img.shields.io/badge/.NET%208-512BD4?style=for-the-badge&logo=dotnet&logoColor=white) ![Angular](https://img.shields.io/badge/Angular-DD0031?style=for-the-badge&logo=angular&logoColor=white) ![AWS](https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazon-aws&logoColor=white)
 
 VisionFerre es una ferretería en línea que resuelve el problema de identificar piezas técnicas (tornillería, abrazaderas, anclajes) mediante una imagen, utilizando Inteligencia Artificial.
 
-## 🚀 Características Principales
+### 🚀 Características Principales
 **Reconocimiento de Imágenes (IA)**: Los usuarios pueden subir una foto de una pieza física y el sistema utiliza **AWS Rekognition (Custom Labels)** para identificarla y mostrar productos coincidentes en el inventario.
 
 **Asistente Inteligente (IA)**: un chatbot brinda detalles de las especificaciones de los productos en tiempo real con **AWS Bedrock**.
 
-## ☁️ Stack Tecnológico
+### ☁️ Stack Tecnológico
 
 | Tecnología | Uso |
 | :--- | :--- |
@@ -24,3 +24,11 @@ VisionFerre es una ferretería en línea que resuelve el problema de identificar
 | **Json Web Token** | Autenticación y autorización del usuario |
 | **Bootstrap** | Interfaz visual |
 | **Arquitectura Multicapa** | 4 capas: API, Lógica, Datos y Entidades |
+
+
+### 📩 Contacto
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](www.linkedin.com/in/carolina-bolayna-alvarez-b475b4ba)
+[![Gmail](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:carolinabolayna13@gmail.com)
+
+**Carolina Bolayna Alvarez** *Desarrollador fullstack | AWS Certified Cloud Practitioner*
