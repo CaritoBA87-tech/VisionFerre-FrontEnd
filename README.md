@@ -137,7 +137,7 @@ VisionFerre es una ferretería en línea que resuelve el problema de identificar
 </p>
 
 <p align="center">
-  <br><i><b>Otros ejemplos de herramientas que reconoce el modelo de Amazon Rekognition: tuerca de seguridad</b></i>  <br> <br>
+  <br><i><b>Otros ejemplos de herramientas que reconoce el modelo de Amazon Rekognition: </b> Tuerca de seguridad</i>  <br> <br>
   <img src="src/assets/img/Screenshots/Tuerca.png" alt="Tuerca de seguridad" />  
 </p>
 
