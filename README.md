@@ -59,7 +59,7 @@ VisionFerre es una ferretería en línea que resuelve el problema de identificar
 ![Home](src/assets/img/Screenshots/Home.png)
 
 <p align="center">
-  Página principal del sitio web VisionFerre
+  <i>Página principal</i>
   <br>
   <img src="src/assets/img/Screenshots/Home.png" alt="Home" />  
 </p>
