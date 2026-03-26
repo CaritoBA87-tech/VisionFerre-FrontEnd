@@ -60,12 +60,12 @@ VisionFerre es una ferretería en línea que resuelve el problema de identificar
 </p>
 
 <p align="center">
-  <i><b>Navegación por categorías de herramientas</b></i> <br> <br>
+  <br><i><b>Navegación por categorías de herramientas</b></i> <br> <br>
   <img src="src/assets/img/Screenshots/Menu.png" alt="Menu" />  
 </p>
 
 <p align="center">
-  <i><b>Ejemplo de los tornillos autoperforantes</b></i> <br> <br>
+  <br><i><b>Ejemplo de los tornillos autoperforantes</b></i> <br> <br>
   <img src="src/assets/img/Screenshots/Autoperforantes.png" alt="Autoperforantes" />  
 </p>
 
