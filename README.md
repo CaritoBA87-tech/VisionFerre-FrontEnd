@@ -86,4 +86,24 @@ VisionFerre es una ferretería en línea que resuelve el problema de identificar
   <img src="src/assets/img/Screenshots/TornilloMetalCruz1.png" alt="Tornillo para metal cruz" />  
 </p>
 
+<p align="center">
+  <br><i><b>Asistente inteligente que pregunta sobre las especificaciones de la pieza buscada</b><br> Tornillo para metal cruz</i>  <br> <br>
+  <img src="src/assets/img/Screenshots/TornilloMetalCruz2.png" alt="Tornillo para metal cruz" />  
+</p>
+
+<p align="center">
+  <br><i><b>Asistente inteligente que pregunta sobre las especificaciones de la pieza buscada</b><br> Tornillo para metal cruz</i>  <br> <br>
+  <img src="src/assets/img/Screenshots/TornilloMetalCruz3.png" alt="Tornillo para metal cruz" />  
+</p>
+
+<p align="center">
+  <br><i><b>Asistente inteligente que reconoce la pieza con base en una imagen proporcionada por el usuario</b><br> Rondana plana</i>  <br> <br>
+  <img src="src/assets/img/Screenshots/RondanaPlana1.png" alt="Rondana plana" />  
+</p>
+
+<p align="center">
+  <br><i><b>Asistente inteligente que pregunta sobre las especificaciones de la pieza buscada</b><br> Rondana plana</i>  <br> <br>
+  <img src="src/assets/img/Screenshots/RondanaPlana2.png" alt="Rondana plana" />  
+</p>
+
 
