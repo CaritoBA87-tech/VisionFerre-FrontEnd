@@ -8,7 +8,7 @@ VisionFerre es una ferretería en línea que resuelve el problema de identificar
 ### 🚀 Características Principales
 **Reconocimiento de Imágenes (IA)**: Los usuarios pueden subir una foto de una pieza física y el sistema utiliza **AWS Rekognition (Custom Labels)** para identificarla y mostrar productos coincidentes en el inventario.
 
-**Asistente Inteligente (IA)**: un chatbot brinda detalles de las especificaciones de los productos en tiempo real con **AWS Bedrock**.
+**Asistente Inteligente (IA)**: un chatbot brinda detalles de las especificaciones de los productos disponibles en tiempo real con **AWS Bedrock**.
 
 ### ☁️ Stack Tecnológico
 
