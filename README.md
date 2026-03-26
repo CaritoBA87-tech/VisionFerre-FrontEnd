@@ -1,32 +1,52 @@
-<<<<<<< HEAD
-# VisionFerre-FrontEnd
-Interfaz de usuario para VisiónFerre, una ferretería online inteligente desarrollada con Angular. Incluye integración con servicios de AWS (S3 y Rekognition) para la visualización y reconocimiento de productos
-=======
-# Examen.Front
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 6.0.0.
+## 🛠️ VisionFerre: E-Commerce Inteligente con IA
 
-## Development server
+<p align="left">
+  <img src="https://img.shields.io/badge/.NET%208-512BD4?style=for-the-badge&logo=dotnet&logoColor=white" alt=".NET 8" />
+  &nbsp; &nbsp;
+  <img src="https://img.shields.io/badge/Angular-DD0031?style=for-the-badge&logo=angular&logoColor=white" alt="Angular" />
+  &nbsp; &nbsp;
+  <img src="https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazon-aws&logoColor=white" alt="AWS" />
+</p>
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+VisionFerre es una ferretería en línea que resuelve el problema de identificar piezas técnicas (tornillería, abrazaderas, anclajes) mediante una imagen, utilizando Inteligencia Artificial.
 
-## Code scaffolding
+[![Demo](https://img.shields.io/badge/VisiónFerre_en_vivo-FF9900?style=for-the-badge&logo=google-chrome&logoColor=white)](https://vision-ferre-front-end.vercel.app)
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+> **Nota:** Por motivos de optimización de costos en AWS, el modelo de **AWS Rekognition** y el asistente **AWS Bedrock** se encuentran pausados. Si desea una demostración en vivo de las capacidades de IA, no dude en contactarme para activarlos.
 
-## Build
+<br>
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+### 🚀 Características Principales
+**Reconocimiento de Imágenes (IA)**: Los usuarios pueden subir una foto de una pieza física y el sistema utiliza **AWS Rekognition (Custom Labels)** para identificarla y mostrar productos coincidentes en el inventario.
 
-## Running unit tests
+**Asistente Inteligente (IA)**: un chatbot brinda detalles de las especificaciones de los productos disponibles en tiempo real con **AWS Bedrock**.
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+<br>
 
-## Running end-to-end tests
+### ☁️ Stack Tecnológico
 
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
+| Tecnología | Uso |
+| :--- | :--- |
+| **C# / .NET 8 / ADO.NET** | Desarrollo del Backend (Alojado en Railway) |
+| **Angular** | Framework para la interfaz de usuario (Alojado en Vercel) | 
+| **SQL Server** | Base de datos (Alojada en Somee) |
+| **AWS Rekognition (Custom Labels)** | Modelo entrenado con 719 imágenes de piezas de ferretería y 47 etiquetas, con un 93.5% de certeza <kbd>(Actualmente offline para control de costos)</kbd> |
+| **AWS Bedrock** | Asistente inteligente que proporciona las especificaciones de los productos disponibles -Modelo *Llama 3.2 1B Instruct*- <kbd> (Disponible bajo solicitud para demostraciones)</kbd> | 
+| **AWS S3** | Almacenamiento para las imágenes de los productos |
+| **AWS IAM** | Permisos requeridos para acceder a los servicios de AWS desde .NET |
+| **Json Web Token** | Autenticación y autorización del usuario |
+| **Bootstrap** | Interfaz visual |
+| **Arquitectura Multicapa** | 4 capas: API, Lógica, Datos y Entidades |
 
-## Further help
+<br>
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
->>>>>>> b4bc5f2 (Commit inicial del proyecto)
+### 📩 Contacto
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/carolina-bolayna-alvarez-b475b4ba)
+[![Gmail](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:carolinabolayna13@gmail.com)
+
+
+**Carolina Bolayna Alvarez** 
+
+*Desarrollador fullstack | AWS Certified Cloud Practitioner*
