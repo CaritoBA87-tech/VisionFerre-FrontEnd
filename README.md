@@ -1,4 +1,4 @@
-<img width="1857" height="81" alt="image" src="https://github.com/user-attachments/assets/432e5b5a-30e5-42f4-ae9c-3a4e551181da" />## 🛠️ VisionFerre: E-Commerce Inteligente con IA
+## 🛠️ VisionFerre: E-Commerce Inteligente con IA
 
 <p align="left">
   <img src="https://img.shields.io/badge/.NET%208-512BD4?style=for-the-badge&logo=dotnet&logoColor=white" alt=".NET 8" />
