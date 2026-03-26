@@ -55,12 +55,9 @@ VisionFerre es una ferretería en línea que resuelve el problema de identificar
 
 ### 📸 Demostración Visual
 
-*Página principal*
-![Home](src/assets/img/Screenshots/Home.png)
-
 <p align="center">
   <i>Página principal</i>
-  <br>
+  <br><br>
   <img src="src/assets/img/Screenshots/Home.png" alt="Home" />  
 </p>
 
