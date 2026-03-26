@@ -106,4 +106,34 @@ VisionFerre es una ferretería en línea que resuelve el problema de identificar
   <img src="src/assets/img/Screenshots/RondanaPlana2.png" alt="Rondana plana" />  
 </p>
 
+<p align="center">
+  <br><i><b>Carrito de compras que se guarda en el Local Storage del navegador</b></i>  <br> <br>
+  <img src="src/assets/img/Screenshots/Carrito.png" alt="Carrito de compras" />  
+</p>
+
+<p align="center">
+  <br><i><b>Autenticación con Json Web Token</b></i>  <br> <br>
+  <img src="src/assets/img/Screenshots/Login.png" alt="Login" />  
+</p>
+
+<p align="center">
+  <br><i><b>Generación de cookie de autenticación con Json Web Token</b></i>  <br> <br>
+  <img src="src/assets/img/Screenshots/JWT.png" alt="Cookie de autenticación" />  
+</p>
+
+<p align="center">
+  <br><i><b>Usuario autenticado</b></i>  <br> <br>
+  <img src="src/assets/img/Screenshots/Autenticado.png" alt="Usuario autenticado" />  
+</p>
+
+<p align="center">
+  <br><i><b>Finalizar compra</b></i>  <br> <br>
+  <img src="src/assets/img/Screenshots/Finalizar.png" alt="Finalizar compra" />  
+</p>
+
+<p align="center">
+  <br><i><b>Compra finalizada</b></i>  <br> <br>
+  <img src="src/assets/img/Screenshots/Finalizado.png" alt="Compra finalizada" />  
+</p>
+
 
