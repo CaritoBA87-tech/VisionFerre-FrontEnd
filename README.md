@@ -5,7 +5,8 @@
 
 VisionFerre es una ferretería en línea que resuelve el problema de identificar piezas técnicas (tornillería, abrazaderas, anclajes) mediante una imagen, utilizando Inteligencia Artificial.
 
-[![Live Demo](https://img.shields.io/badge/DEMO_EN_VIVO-VER_PROYECTO-FEA116?style=for-the-badge&logo=google-chrome&logoColor=white)]([TU_URL_DE_VERCEL_AQUI](https://vision-ferre-front-end.vercel.app/))
+URL del proyecto:
+[VisionFerre](https://vision-ferre-front-end.vercel.app)
 
 <br>
 
