@@ -1,9 +1,8 @@
 
 # 🛠️ VisionFerre: E-Commerce Inteligente con IA
-VisionFerre es una ferretería en línea que resuelve el problema de identificar piezas técnicas (tornillería, abrazaderas, anclajes) mediante una imagen, utilizando Inteligencia Artificial.
 
-# 🛠️ VisionFerre: E-Commerce Inteligente con IA
 ![.NET 8](https://img.shields.io/badge/.NET-8-512bd4?logo=dotnet) ![Angular](https://img.shields.io/badge/Angular-16-dd0031?logo=angular) ![AWS](https://img.shields.io/badge/AWS-Powered-ff9900?logo=amazons3)
+VisionFerre es una ferretería en línea que resuelve el problema de identificar piezas técnicas (tornillería, abrazaderas, anclajes) mediante una imagen, utilizando Inteligencia Artificial.
 
 ## 🚀 Características Principales
 **Reconocimiento de Imágenes (IA)**: Los usuarios pueden subir una foto de una pieza física y el sistema utiliza $\color{blue}{\text{AWS Rekognition (Custom Labels)}}$ para identificarla y mostrar productos coincidentes en el inventario.
