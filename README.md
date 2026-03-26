@@ -162,4 +162,16 @@ VisionFerre es una ferretería en línea que resuelve el problema de identificar
   <img src="src/assets/img/Screenshots/TornilloCoche.png" alt="Tornillo de coche" />  
 </p>
 
+<br>
+
+### 📩 Contacto
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/carolina-bolayna-alvarez-b475b4ba)
+[![Gmail](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:carolinabolayna13@gmail.com)
+
+
+**Carolina Bolayna Alvarez** 
+
+*Desarrollador fullstack | AWS Certified Cloud Practitioner*
+
 
