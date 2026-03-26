@@ -43,9 +43,7 @@ VisionFerre es una ferretería en línea que resuelve el problema de identificar
 
 ###  🔗 Repositorios del Proyecto
 
-Este repositorio es el Frontend del proyecto
-
-* 🌐 **Frontend:** [VisionFerre-Frontend](https://github.com/CaritoBA87-tech/VisionFerre-FrontEnd)
+* 🌐 **Frontend:** [VisionFerre-Frontend](https://github.com/CaritoBA87-tech/VisionFerre-FrontEnd) (Este repositorio)
 * ⚙️ **Backend (API):** [VisionFerre-API](https://github.com/CaritoBA87-tech/VisionFerre-API)
   
 <br>
