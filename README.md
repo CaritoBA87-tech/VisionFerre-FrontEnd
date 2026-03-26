@@ -6,7 +6,6 @@
 VisionFerre es una ferretería en línea que resuelve el problema de identificar piezas técnicas (tornillería, abrazaderas, anclajes) mediante una imagen, utilizando Inteligencia Artificial.
 
 <br>
-<br>
 
 ### 🚀 Características Principales
 **Reconocimiento de Imágenes (IA)**: Los usuarios pueden subir una foto de una pieza física y el sistema utiliza **AWS Rekognition (Custom Labels)** para identificarla y mostrar productos coincidentes en el inventario.
