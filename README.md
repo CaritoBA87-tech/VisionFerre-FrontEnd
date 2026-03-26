@@ -1,4 +1,4 @@
-## 🛠️ VisionFerre: E-Commerce Inteligente con IA
+<img width="1857" height="81" alt="image" src="https://github.com/user-attachments/assets/432e5b5a-30e5-42f4-ae9c-3a4e551181da" />## 🛠️ VisionFerre: E-Commerce Inteligente con IA
 
 <p align="left">
   <img src="https://img.shields.io/badge/.NET%208-512BD4?style=for-the-badge&logo=dotnet&logoColor=white" alt=".NET 8" />
@@ -69,6 +69,21 @@ VisionFerre es una ferretería en línea que resuelve el problema de identificar
 <p align="center">
   <br><i><b>Ejemplo de los tornillos autoperforantes</b></i> <br> <br>
   <img src="src/assets/img/Screenshots/Autoperforantes.png" alt="Autoperforantes" />  
+</p>
+
+<p align="center">
+  <br><i><b>Filtros para acotar los resultados</b></i> <br> <br>
+  <img src="src/assets/img/Screenshots/Filtros.png" alt="Filtros" />  
+</p>
+
+<p align="center">
+  <br><i><b>Detalle del producto</b></i> <br> <br>
+  <img src="src/assets/img/Screenshots/Detalle.png" alt="Detalle" />  
+</p>
+
+<p align="center">
+  <br><i><b>Asistente inteligente que reconoce la pieza con base en una imagen proporcionada por el usuario</b></i> <br> Tornillo para metal cruz <br> <br>
+  <img src="src/assets/img/Screenshots/TornilloMetalCruz1.png" alt="Tornillo para metal cruz" />  
 </p>
 
 
