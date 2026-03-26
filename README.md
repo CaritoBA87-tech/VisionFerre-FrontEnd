@@ -1,4 +1,3 @@
-<img width="865" height="81" alt="image" src="https://github.com/user-attachments/assets/d9d5dfac-45cf-4775-97f4-d781b0a6cbec" />
 ## 🛠️ VisionFerre: E-Commerce Inteligente con IA
 
 <p align="left">
