@@ -51,8 +51,11 @@ VisionFerre es una ferretería en línea que resuelve el problema de identificar
 
 *Desarrollador fullstack | AWS Certified Cloud Practitioner*
 
+<br>
 
 ### 📸 Demostración Visual
-![Home](assets/img/Screenshots/Home.png)
+
 *Página principal*
+![Home](src/assets/img/Screenshots/Home.png)
+
 
