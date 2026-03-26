@@ -82,7 +82,7 @@ VisionFerre es una ferretería en línea que resuelve el problema de identificar
 </p>
 
 <p align="center">
-  <br><i><b>Asistente inteligente que reconoce la pieza con base en una imagen proporcionada por el usuario</b></i> <br> Tornillo para metal cruz <br> <br>
+  <br><i><b>Asistente inteligente que reconoce la pieza con base en una imagen proporcionada por el usuario</b><br> Tornillo para metal cruz</i>  <br> <br>
   <img src="src/assets/img/Screenshots/TornilloMetalCruz1.png" alt="Tornillo para metal cruz" />  
 </p>
 
