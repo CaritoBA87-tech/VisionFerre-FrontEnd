@@ -141,4 +141,24 @@ VisionFerre es una ferretería en línea que resuelve el problema de identificar
   <img src="src/assets/img/Screenshots/Tuerca.png" alt="Tuerca de seguridad" />  
 </p>
 
+<p align="center">
+  <br><i><b>Otros ejemplos de herramientas que reconoce el modelo de Amazon Rekognition: </b>Armella abierta</i>  <br> <br>
+  <img src="src/assets/img/Screenshots/Armella.png" alt="Armella abierta" />  
+</p>
+
+<p align="center">
+  <br><i><b>Otros ejemplos de herramientas que reconoce el modelo de Amazon Rekognition: </b>Chaveta en R</i>  <br> <br>
+  <img src="src/assets/img/Screenshots/Chaveta.png" alt="Chaveta en R" />  
+</p>
+
+<p align="center">
+  <br><i><b>Otros ejemplos de herramientas que reconoce el modelo de Amazon Rekognition: </b>Alcayata</i>  <br> <br>
+  <img src="src/assets/img/Screenshots/Alcayata.png" alt="Alcayata" />  
+</p>
+
+<p align="center">
+  <br><i><b>Otros ejemplos de herramientas que reconoce el modelo de Amazon Rekognition: </b>Tornillo de coche</i>  <br> <br>
+  <img src="src/assets/img/Screenshots/TornilloCoche.png" alt="Tornillo de coche" />  
+</p>
+
 
