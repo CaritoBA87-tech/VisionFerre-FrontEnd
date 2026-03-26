@@ -1,4 +1,4 @@
-
+<img width="865" height="81" alt="image" src="https://github.com/user-attachments/assets/d9d5dfac-45cf-4775-97f4-d781b0a6cbec" />
 ## 🛠️ VisionFerre: E-Commerce Inteligente con IA
 
 <p align="left">
@@ -58,6 +58,16 @@ VisionFerre es una ferretería en línea que resuelve el problema de identificar
 <p align="center">
   <i>Página principal</i>
   <img src="src/assets/img/Screenshots/Home.png" alt="Home" />  
+</p>
+
+<p align="center">
+  <i>Navegación por categorías de herramientas</i>
+  <img src="src/assets/img/Screenshots/Menu.png" alt="Menu" />  
+</p>
+
+<p align="center">
+  <i>Ejemplo de los tornillos autoperforantes</i>
+  <img src="src/assets/img/Screenshots/Autoperforantes.png" alt="Autoperforantes" />  
 </p>
 
 
